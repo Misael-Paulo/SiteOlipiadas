@@ -1,0 +1,288 @@
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+/*menu*/
+#header {
+  width: 900px;
+  height: 40px;
+  background: #4534FA;
+  margin: 0px auto;
+  
+}
+#header ul li {
+  background-color: #4534FA;
+  color: white;
+  float: middle;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+  margin: 0px auto;
+  transition: 1s;
+  border-radius: 30px;
+}
+
+#header ul li:hover {
+  background-color: #3528c7;
+}
+#header ul {
+  padding: 0px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 40px;
+  }
+}
+#header ul ul {
+  display: none;
+  position: absolute;
+}
+#header ul li:hover > ul {
+  display: block;
+  position: absolute;
+}
+#header ul ul ul {
+  margin-left: 201px;
+  top: 0px;
+  position: absolute;
+}
+#header ul ul li:hover {
+  background-color: rgb(0, 44, 83);
+}
+#header ul ul ul li:hover {
+  background-color: blueviolet;
+}
+#nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color:#ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  }
+/*fim menu*/
+/*rodape*/
+#footer{
+  width: 900px;
+  height: 100%;
+  background:#4534FA;
+  margin:0px auto;
+  }
+      
+#footer p{
+  color: #fff;
+  text-align: center;
+  margin: 0px auto;
+ }
+#footer a{
+  margin-left: 870px;
+}
+
+/*fim rodape*/
+/*inicio home*/
+#home{
+  width:900px;
+  height:400px;
+  background:#FADC35;
+  margin:0px auto; 
+
+}
+.hartigo{
+  width:900px; 
+  margin:0px auto;
+  color: #474650; 
+  text-align: center;
+}
+.hartigo1{
+width:900px;  
+margin:0px auto;
+color: #474650; 
+text-align: center;
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hartigo p{
+  padding-top:60px; 
+  font-size: 65px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+/*fim home*/
+
+/*inicio sobre*/
+#sobre{
+  width:900px;
+  height:900px;
+  background:#FADC35;
+  margin:0px auto; 
+  padding-top: 30px;
+  
+}
+.sartigo{
+  width:400px;
+  margin:5px 20px;
+  float:right;
+  color: #474650;
+  
+}
+.sartigo p{
+  padding-top:15px; 
+  font-size: 17px;
+  text-align:justify;
+  
+}
+.sartigo2{
+width:400px;
+margin:5px 20px;
+float:right;
+margin-top: 50px;
+color: #474650;
+
+}
+.sartigo2 p{
+padding-top:15px; 
+font-size: 17px;
+text-align:justify;
+
+}
+.sartigo3{
+width:800px;
+margin:0px auto;
+color: #474650;
+ margin-top: 100px;
+ padding-top:40px; 
+font-size: 20px;
+text-align:justify;
+}
+
+/*fim sobre*/
+
+/*inicio destaque*/
+#dest{
+width:900px;
+height:860px;
+background:#FADC35;
+margin:0px auto; 
+}
+#dest h1{
+color:#474650;
+}
+.video{
+margin: 0px auto;
+}
+/*fim destaque*/
+
+/*inicio desafio*/
+#desa{
+width:900px;
+height:700px;
+background:#FADC35;
+margin:0px auto; 
+padding-top: 30px;
+
+}
+.dsartigo{
+width:800px;
+margin:5px 20px;
+color: #474650;
+
+}
+.dsartigo p{
+padding-top:5px; 
+font-size: 20px;
+text-align:justify;
+
+}
+/*fim desafio*/
+/*inicio medalha*/
+#meda{
+width:900px;
+height:700px;
+background:#FADC35;
+margin:0px auto; 
+padding-top: 30px;
+
+}
+.martigo{
+width:800px;
+margin:5px 20px;
+color: #474650;
+
+}
+.martigo p{
+padding-top:5px; 
+margin-left: 20px;
+font-size: 20px;
+text-align:justify;
+
+}
+/*fim medalha*/
+/*inicio contato*/
+#conta{
+width:900px;
+height:450px;
+background:#FADC35;
+margin:0px auto; 
+}
+
+
+        
+.cartigo textarea{
+resize: none;
+}
+
+.cartigo{
+text-align:center;
+margin: 0px auto;
+}
+
+.cartigo h1{
+font-family: arial;
+font-size: 18px;
+font-weight: bold;
+color:#474650;
+}
+
+.cartigo p{
+  font-size: 13px;
+  } 
+/*fim contato*/
+
+/*RESPONSIVIDADE ipad pros	*/
+@media screen and (min-width:1024px) and (max-width:1366px){
+#home,#header,#footer,#sobre,#desa,#dest,#meda,#conta{width:1024px;
+}
+} 
+
+/*RESPONSIVIDADE surface pro 7	*/
+@media screen and (min-width:912px) and (max-width:1368px){
+  #home,#header,#footer,#sobre,#desa,#dest,#meda,#conta{width:912px;
+  }
+  } 
+
+/*RESPONSIVIDADE nest hub	*/
+@media screen and (min-width:1024px) and (max-width:600px){
+  #home,#header,#footer,#sobre,#desa,#dest,#meda,#conta{width:1024px;
+  }
+  }   
+
+
+  
+
+
+
